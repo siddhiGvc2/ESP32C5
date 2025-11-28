@@ -58,8 +58,10 @@ static const char *type_to_str(nvs_type_t type)
     return "Unknown";
 }
 
-void app_main(void)
+void nvs_main(void)
 {
+
+    
     vTaskDelay(3000/portTICK_PERIOD_MS);
     ESP_LOGI(TAG, "\nStarting Program *********************...");
     // Initialize NVS

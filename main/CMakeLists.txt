@@ -1,3 +1,8 @@
-idf_component_register(SRCS "nvs_value_example_main.c"
-                       PRIV_REQUIRES nvs_flash
-                       INCLUDE_DIRS ".")
+idf_component_register(
+    SRCS
+        "main.c"
+        "src/uart.c"
+        "src/wifi.c"
+    INCLUDE_DIRS
+        "inc"
+)
