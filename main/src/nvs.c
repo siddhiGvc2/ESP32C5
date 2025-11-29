@@ -14,15 +14,7 @@
    software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
    CONDITIONS OF ANY KIND, either express or implied.
 */
-#include <stdio.h>
-#include <inttypes.h>
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "esp_system.h"
-#include "esp_log.h"
-#include "nvs_flash.h"
-#include "nvs.h"
-
+#include "../inc/app.h"
 static const char *TAG = "nvs_example";
 
 typedef struct {
